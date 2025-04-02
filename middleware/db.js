@@ -3,9 +3,9 @@ const mysql = require("mysql2");
 
 var connection = mysql.createPool({
     host     : 'localhost',
-    user     : 'username',
-    password : 'password',
-    database : 'database',
+    user     : 'admin',
+    password : 'Password@@2025',
+    database : 'swifty_admin',
     connectionLimit : 100,
     charset: 'utf8mb4'
   });
